@@ -8,6 +8,6 @@ Website sederhana yang bertujuan untuk memudahkan dalam mencari label apa saja y
 
 ## Thanks to
 
-- **Codeigniter** (https://www.codeigniter.com/) for Framework PHP. 
+- **Codeigniter** (https://www.codeigniter.com/) for PHP Framework.
 
-- **Bootstrap** (https://getbootstrap.com/) for CSS Framework
+- **Bootstrap** (https://getbootstrap.com/) for CSS Framework.
