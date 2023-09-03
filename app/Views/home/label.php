@@ -115,7 +115,7 @@
                                         <option value="">Pilih Gedung ...</option>
                                         <option value="A">Gedung A</option>
                                         <option value="B">Gedung B</option>
-                                        <option value="E">Gedung E</option>
+                                        <option value="E">Gedung C2</option>
                                     </select>
                                 </div>
                                 <div class="mb-4">
