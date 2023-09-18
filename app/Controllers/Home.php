@@ -4,70 +4,55 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
+    public function search()
     {
-        return view('home/beranda');
+        return view('home/search');
     }
 
-    public function label()
+    public function detail($id)
     {
-        return view('home/label');
-    }
-
-    public function vcb()
-    {
-        return view('home/vcb');
-    }
-
-    public function hasilLabel()
-    {
-        $gedung = $this->request->getVar('gedung');
-        $keyword = $this->request->getVar('po');
         $db      = \Config\Database::connect();
+        $builder = $db->table('gedung_a');
 
-        if ($gedung == 'A') {
+        $query = $builder->where('id', $id)->get();
+        $result = $query->getRow();
 
-            $query   = $db->query("SELECT * FROM gedung_a WHERE po=" . $keyword . "");
-            $result  = $query->getRow();
+        $data =
+            [
+                'row' => $result
+            ];
 
-            if (isset($result)) {
-                $data = [
-                    'hasil' => $result
-                ];
+        return view('home/detail', $data);
+    }
 
-                return view('home/hasilLabel', $data);
-            } else {
-                session()->setFlashdata('error', 'PO tidak ditemukan! Pastikan input PO yang benar.');
-                return redirect()->to(base_url('label'));
-            }
-        } else if ($gedung == 'B') {
-            $query   = $db->query("SELECT * FROM gedung_b WHERE po=" . $keyword . "");
-            $result  = $query->getRow();
+    public function search_label()
+    {
+        $keyword = $this->request->getVar('query');
+        $db      = \Config\Database::connect();
+        $builder = $db->table('gedung_a');
 
-            if (isset($result)) {
-                $data = [
-                    'hasil' => $result
-                ];
+        $query = $builder->like('po', $keyword)->orLike('qty', $keyword)->get();
+        $result = $query->getResultArray();
 
-                return view('home/hasilLabel', $data);
-            } else {
-                session()->setFlashdata('error', 'PO tidak ditemukan! Pastikan input PO yang benar.');
-                return redirect()->to(base_url('label'));
+        if ($result !== []) {
+            foreach ($result as $row) {
+                echo "                    
+                    <tr>
+                        <td class='text-center'>{$row['cell']}</td>
+                        <td class='text-center'>{$row['po']}</td>
+                        <td>{$row['item']}</td>
+                        <td class='text-center'>{$row['artikel']}</td>
+                        <td class='text-center'>{$row['qty']}</td>
+                        <td class='text-center'><a href='detail/{$row['id']}' class='btn btn-sm btn-primary'>Detail</a></td>                                                
+                    </tr>
+                ";
             }
         } else {
-            $query   = $db->query("SELECT * FROM gedung_e WHERE po=" . $keyword . "");
-            $result  = $query->getRow();
-
-            if (isset($result)) {
-                $data = [
-                    'hasil' => $result
-                ];
-
-                return view('home/hasilLabel', $data);
-            } else {
-                session()->setFlashdata('error', 'PO tidak ditemukan! Pastikan input PO yang benar.');
-                return redirect()->to(base_url('label'));
-            }
+            echo '
+                <tr>
+                    <td class="text-center text-danger" colspan="6">Data tidak ditemukan!</td>
+                </tr>
+            ';
         }
     }
 }

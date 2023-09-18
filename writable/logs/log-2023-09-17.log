@@ -1,0 +1,574 @@
+CRITICAL - 2023-09-17 12:32:10 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 12:32:41 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 12:33:05 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:29:31 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:29:33 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:29:33 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:29:34 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:29:44 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:45 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:45 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:47 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:49 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:49 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:49 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:50 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:51 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:51 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:51 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:52 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:52 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:55 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:56 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:56 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:33:56 --> Undefined array key "cell"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cell"', 'D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:34:14 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:34:19 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:34:19 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:34:19 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:35:59 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:35:59 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:35:59 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:18 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:20 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:20 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:20 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:21 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:22 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:22 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:22 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:22 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:22 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:37:36 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:38:52 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:39:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:39:28 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:40:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:41:23 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:41:37 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:41:42 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:43:21 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:44:04 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:44:06 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:45:06 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:45:06 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:45:07 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:46:36 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:47:20 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:47:42 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:47:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:48:14 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:48:17 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:48:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:48:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:48:52 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:50:55 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:51:35 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:51:36 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:51:37 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:51:38 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 13:56:23 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:00:24 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:00:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:00:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:00:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:02:39 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:04:03 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:04:22 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:08:01 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:12:53 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:22:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:22:36 --> syntax error, unexpected token "?"
+in APPPATH\Controllers\Home.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\label-big\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:34:47 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:35:23 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 85
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(85): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
