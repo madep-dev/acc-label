@@ -40,8 +40,6 @@ class Home extends BaseController
                     <tr>
                         <td class='text-center'>{$row['cell']}</td>
                         <td class='text-center'>{$row['po']}</td>
-                        <td>{$row['item']}</td>
-                        <td class='text-center'>{$row['artikel']}</td>
                         <td class='text-center'>{$row['qty']}</td>
                         <td class='text-center'><a href='detail/{$row['id']}' class='btn btn-sm btn-primary'>Detail</a></td>                                                
                     </tr>

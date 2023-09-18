@@ -52,21 +52,19 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10">
-                <div class="text-center py-5">
+                <div class="text-center py-5 animate__animated animate__fadeInDown animate__faster">
                     <h1>Lihat Label</h1>
                 </div>
-                <div class="input-group input-group-lg shadow-sm mx-auto mb-3">
+                <div class="input-group input-group-lg shadow-sm mx-auto mb-3 animate__animated animate__fadeInDown animate__faster animate__delay-0.5s">
                     <span class="input-group-text" id="inputGroup-sizing-lg">Cari</span>
                     <input type="text" class="form-control" id="keyword" name="keyword" autocomplete="on" placeholder="Masukkan PO atau Qty">
                 </div>
-                <div class="blank">
+                <div class="blank animate__animated animate__fadeInDown animate__faster animate__delay-0.8s">
                     <table class="table table-bordered table-hover align-middle">
                         <thead class="bg-info">
                             <tr class="text-center">
                                 <th>Cell</th>
                                 <th>PO</th>
-                                <th>Model</th>
-                                <th>Artikel</th>
                                 <th>Quantity</th>
                                 <th>Pilihan</th>
                             </tr>
