@@ -936,3 +936,17 @@ in SYSTEMPATH\Database\BaseBuilder.php on line 984.
  3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:55:24 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:55:30 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\label-big\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Database\BaseBuilder->like('po', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->search_label()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
